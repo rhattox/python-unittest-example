@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  app:
+    image: python-unittest-example:0.0.1
+    build:
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./src:/home/python/src
